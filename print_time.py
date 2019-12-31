@@ -9,5 +9,5 @@ Created on Tue Dec 31 17:11:34 2019
 #this function will print the current time in hours, minutes, and seconds
 import time
 t = time.localtime()
-current_time = time.strftime("%H:%M:%S", t)
+current_time = time.strftime("%l:%M:%S %p", t)
 print(current_time)
